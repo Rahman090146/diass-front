@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diass SMM Panel</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>💎 Diass SMM Panel</h1>
+
+    <div class="card">
+      <p><strong>Username:</strong> <span id="username">memuat...</span></p>
+      <p><strong>Saldo:</strong> Rp<span id="balance">0</span></p>
+    </div>
+
+    <div class="card">
+      <h2>🛒 Buat Pesanan</h2>
+      <select id="service"></select><br><br>
+      <input id="target" placeholder="Masukkan link target (contoh: YouTube)" /><br><br>
+      <input id="qty" type="number" placeholder="Jumlah pesanan" /><br><br>
+      <button onclick="makeOrder()">Pesan Sekarang</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
